@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: transparent;
+    font-size: 18px;
+    li{
+        list-style: none;
+        a{
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+}
