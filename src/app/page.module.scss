@@ -20,6 +20,20 @@
             font-size: 40px;
             padding-bottom: 30px;
         }
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            border: 3px solid white;
+            padding: 13px;
+            border-radius: 30px;
+            transition: all 0.3s;
+            &:hover{
+                background-color: white;
+                font-weight: bold;
+                color: black;
+            }
+        }
     }
 }
 

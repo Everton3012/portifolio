@@ -3,6 +3,7 @@ import hero from "../../public/dev.jpg";
 import styles from "./page.module.scss";
 import { Header } from "@/components/Header";
 import { About } from "@/components/About";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
                         <div>
                             <h3>Olá , me chamo Everton Brandão</h3>
                             <h1>Full-stack Developer</h1>
+                            <Link href={"#contato"}>Contato</Link>
                         </div>
                         <div className={styles.containerChib}>
                             <Image
