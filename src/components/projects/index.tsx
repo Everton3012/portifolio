@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./styles.module.scss";
-import Dalygames from "../../../public/dalygames.png";
-import DevMotors from "../../../public/devmotors.png";
-import MiniBlog from "../../../public/miniblog.png";
-import Tarefas from "../../../public/tarefas+.png";
+import dalygames from "../../../public/dalygames.png";
+import devmotors from "../../../public/devmotors.png";
+import miniblog from "../../../public/miniblog.png";
+import tarefas from "../../../public/tarefas+.png";
 
 export const Projects = () => {
     return (
@@ -21,7 +21,7 @@ export const Projects = () => {
                         quality={100}
                         priority={true}
                         fill={true}
-                        src={Tarefas}
+                        src={tarefas}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
                     <p>
@@ -42,7 +42,7 @@ export const Projects = () => {
                         quality={100}
                         priority={true}
                         fill={true}
-                        src={Dalygames}
+                        src={dalygames}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
                     <p></p>
@@ -60,7 +60,7 @@ export const Projects = () => {
                         quality={100}
                         priority={true}
                         fill={true}
-                        src={DevMotors}
+                        src={devmotors}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
                     <p></p>
@@ -74,7 +74,7 @@ export const Projects = () => {
                         quality={100}
                         priority={true}
                         fill={true}
-                        src={MiniBlog}
+                        src={miniblog}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
                     <p></p>
