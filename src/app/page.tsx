@@ -4,6 +4,7 @@ import styles from "./page.module.scss";
 import { Header } from "@/components/Header";
 import { About } from "@/components/About";
 import Link from "next/link";
+import { Projects } from "@/components/projects";
 
 export default function Home() {
     return (
@@ -34,6 +35,9 @@ export default function Home() {
                 </section>
                 <section className={styles.container}>
                     <About />
+                </section>
+                <section className={styles.container}>
+                    <Projects />
                 </section>
             </main>
         </>
