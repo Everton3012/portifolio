@@ -4,7 +4,7 @@ import styles from "./page.module.scss";
 import { Header } from "@/components/Header";
 import { About } from "@/components/About";
 import Link from "next/link";
-import { Projects } from "@/components/projects";
+import { Projects } from "@/components/projetos";
 
 export default function Home() {
     return (
