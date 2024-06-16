@@ -13,6 +13,7 @@
         padding: 20px;
     }
     p{
+        font-size: 18px;
         text-align: justify;
         padding: 0 200px;
         color: white;
@@ -23,6 +24,14 @@
     .sobre{
         p{
             padding: 0 40px;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .sobre{
+        p{
+            padding: 0 2%;
         }
     }
 }

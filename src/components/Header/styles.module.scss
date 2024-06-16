@@ -18,3 +18,10 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .flex{
+        gap: 1.5em;
+        font-size: 15px;
+    }
+}
