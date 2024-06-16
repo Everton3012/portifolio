@@ -1,0 +1,30 @@
+.project {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.card{
+    background-color: #ccc;
+    border-radius: 10px;
+    max-width: 250px;
+    a{
+        text-decoration: none;
+        color: #1a1919;
+        text-align: center;
+        margin-bottom: 10px;
+
+
+
+        .projectImage{
+            position: relative;
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+
+}

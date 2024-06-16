@@ -1,10 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./styles.module.scss";
+import Dalygames from "../../../public/dalygames.png";
+import DevMotors from "../../../public/devmotors.png";
+import MiniBlog from "../../../public/miniblog.png";
+import Tarefas from "../../../public/tarefas+.png";
 
 export const Projects = () => {
     return (
-        <section id="projetos">
+        <section className={styles.project} id="projetos">
             <div className={styles.card}>
                 <Link
                     href={
@@ -12,8 +16,8 @@ export const Projects = () => {
                     }
                 >
                     <h3>Tarefas+</h3>
-                    <Image src={""} alt={""} />
-                    <p></p>
+                    <Image className={styles.projectImage} src={Tarefas} alt={"imagem do projeto, clique para ser redirecionado"} />
+                    <p>Um sistema de compatilhamento de tarefas ,feito em NextJS e Firebase com sistema de login usando o google</p>
                 </Link>
             </div>
             <div className={styles.card}>
@@ -23,7 +27,7 @@ export const Projects = () => {
                     }
                 >
                     <h3>DalyGames</h3>
-                    <Image src={""} alt={""} />
+                    <Image className={styles.projectImage} src={Dalygames} alt={"imagem do projeto, clique para ser redirecionado"} />
                     <p></p>
                 </Link>
             </div>
@@ -34,14 +38,14 @@ export const Projects = () => {
                     }
                 >
                     <h3>DevMotos</h3>
-                    <Image src={""} alt={""} />
+                    <Image className={styles.projectImage} src={DevMotors} alt={"imagem do projeto, clique para ser redirecionado"}/>
                     <p></p>
                 </Link>
             </div>
             <div className={styles.card}>
                 <Link href={"https://miniblog-ee3cb.web.app/"}>
                     <h3>MiniBlog</h3>
-                    <Image src={""} alt={""} />
+                    <Image className={styles.projectImage} src={MiniBlog} alt={"imagem do projeto, clique para ser redirecionado"} />
                     <p></p>
                 </Link>
             </div>
