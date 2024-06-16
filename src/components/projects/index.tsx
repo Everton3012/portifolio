@@ -16,8 +16,18 @@ export const Projects = () => {
                     }
                 >
                     <h3>Tarefas+</h3>
-                    <Image className={styles.projectImage} src={Tarefas} alt={"imagem do projeto, clique para ser redirecionado"} />
-                    <p>Um sistema de compatilhamento de tarefas ,feito em NextJS e Firebase com sistema de login usando o google</p>
+                    <Image
+                        className={styles.projectImage}
+                        quality={100}
+                        priority={true}
+                        fill={true}
+                        src={Tarefas}
+                        alt={"imagem do projeto, clique para ser redirecionado"}
+                    />
+                    <p>
+                        Um sistema de compatilhamento de tarefas ,feito em
+                        NextJS e Firebase com sistema de login usando o google
+                    </p>
                 </Link>
             </div>
             <div className={styles.card}>
@@ -27,7 +37,14 @@ export const Projects = () => {
                     }
                 >
                     <h3>DalyGames</h3>
-                    <Image className={styles.projectImage} src={Dalygames} alt={"imagem do projeto, clique para ser redirecionado"} />
+                    <Image
+                        className={styles.projectImage}
+                        quality={100}
+                        priority={true}
+                        fill={true}
+                        src={Dalygames}
+                        alt={"imagem do projeto, clique para ser redirecionado"}
+                    />
                     <p></p>
                 </Link>
             </div>
@@ -38,14 +55,28 @@ export const Projects = () => {
                     }
                 >
                     <h3>DevMotos</h3>
-                    <Image className={styles.projectImage} src={DevMotors} alt={"imagem do projeto, clique para ser redirecionado"}/>
+                    <Image
+                        className={styles.projectImage}
+                        quality={100}
+                        priority={true}
+                        fill={true}
+                        src={DevMotors}
+                        alt={"imagem do projeto, clique para ser redirecionado"}
+                    />
                     <p></p>
                 </Link>
             </div>
             <div className={styles.card}>
                 <Link href={"https://miniblog-ee3cb.web.app/"}>
                     <h3>MiniBlog</h3>
-                    <Image className={styles.projectImage} src={MiniBlog} alt={"imagem do projeto, clique para ser redirecionado"} />
+                    <Image
+                        className={styles.projectImage}
+                        quality={100}
+                        priority={true}
+                        fill={true}
+                        src={MiniBlog}
+                        alt={"imagem do projeto, clique para ser redirecionado"}
+                    />
                     <p></p>
                 </Link>
             </div>
