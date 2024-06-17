@@ -8,11 +8,9 @@ import styles from "./styles.module.scss";
 
 export const Projects = () => {
     return (
-        <>
-        <h3 className={styles.title}>Projetos</h3>
+        <main>
+            <h3 className={styles.title}>Projetos</h3>
             <section className={styles.project} id="projetos">
-
-
                 <div className={styles.card}>
                     <Link
                         href={
@@ -115,6 +113,6 @@ export const Projects = () => {
                     </Link>
                 </div>
             </section>
-        </>
+        </main>
     );
 };
