@@ -1,32 +1,49 @@
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
 .project {
     padding: 30px 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 2em;
 }
 
-.card{
+.card {
     background-color: #ccc;
     border-radius: 10px;
     max-width: 250px;
-    a{
+    height: 350px;
+
+    a {
         text-decoration: none;
         color: #1a1919;
         text-align: center;
         margin-bottom: 10px;
 
-        div.containerImage{
+        div.containerImage {
             position: relative;
             width: 250px;
             height: 150px;
-            .projectImage{
+
+            .projectImage {
                 position: relative;
                 width: 250px;
                 height: 150px;
                 object-fit: cover;
             }
+        }
+
+        p {
+            font-size: 14px;
+            text-align: left;
+            padding: 15px;
         }
     }
 
