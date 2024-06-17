@@ -20,7 +20,7 @@ export const Projects = () => {
                         className={styles.projectImage}
                         quality={100}
                         priority={true}
-                        fill={true}
+
                         src={tarefas}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
@@ -41,7 +41,7 @@ export const Projects = () => {
                         className={styles.projectImage}
                         quality={100}
                         priority={true}
-                        fill={true}
+
                         src={dalygames}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
@@ -59,7 +59,7 @@ export const Projects = () => {
                         className={styles.projectImage}
                         quality={100}
                         priority={true}
-                        fill={true}
+
                         src={devmotors}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
@@ -73,7 +73,7 @@ export const Projects = () => {
                         className={styles.projectImage}
                         quality={100}
                         priority={true}
-                        fill={true}
+
                         src={miniblog}
                         alt={"imagem do projeto, clique para ser redirecionado"}
                     />
