@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./styles.module.scss";
-import dalygames from "../../../public/dalygames.png";
-import devmotors from "../../../public/devmotors.png";
-import miniblog from "../../../public/miniblog.png";
-import tarefas from "../../../public/tarefas+.png";
+import dalygames from "../../../public/dalygames.jpg";
+import devmotors from "../../../public/devmotors.jpg";
+import miniblog from "../../../public/miniblog.jpg";
+import tarefas from "../../../public/tarefas+.jpg";
 
 export const Projects = () => {
     return (
