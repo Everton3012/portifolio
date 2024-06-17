@@ -17,13 +17,16 @@
         text-align: center;
         margin-bottom: 10px;
 
-
-
-        .projectImage{
+        div.containerImage{
             position: relative;
             width: 250px;
             height: 150px;
-            object-fit: cover;
+            .projectImage{
+                position: relative;
+                width: 250px;
+                height: 150px;
+                object-fit: cover;
+            }
         }
     }
 
