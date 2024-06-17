@@ -106,7 +106,7 @@ export const Projects = () => {
                             />
                         </div>
                         <p>
-                            Sistema de rede social simples feito em NextJs e
+                            Sistema de rede social simples feito em ReactJs e
                             Firebase, com sistema de login, busca por hashtags e
                             com pagina de gerenciamento de posts
                         </p>
