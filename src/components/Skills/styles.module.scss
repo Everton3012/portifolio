@@ -5,14 +5,20 @@
     margin-top: 40px;
 }
 
-.project {
+.flex {
+    margin: 30px 0;
     padding: 30px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 3em;
+    div{
+        text-align: center;
+        width: 50%;
+        font-size: 30px;
+        color: white;
+    }
 }
 
 .card {
