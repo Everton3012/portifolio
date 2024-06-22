@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Form } from "./components/Form";
 import {BiLogoWhatsapp, BiMailSend, BiLogoGithub, BiLogoLinkedin} from "react-icons/bi"
 
-export const Contato = () => {
+export const Contact = () => {
     return (
         <main className={styles.main}>
             <h3>Contato</h3>
