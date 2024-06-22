@@ -69,8 +69,21 @@
         > div{
             > div {
                 span{
-                    font-size: 14px;
+                    font-size: 18px;
                     padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:440px) {
+    .flex{
+        > div{
+            > div {
+                span{
+                    font-size: 15px;
+
                 }
             }
         }
