@@ -14,7 +14,7 @@ export const Skills = () => {
                         <span>ExpressJs</span>
                         <span>NestJs</span>
                         <span>MySQL</span>
-                        <span>PostgresSql</span>
+                        <span>PostgreSQL</span>
                         <span>TypeScript</span>
 
                         <span>MongoDB</span>
