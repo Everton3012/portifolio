@@ -63,3 +63,16 @@
         }
     }
 }
+
+@media (max-width:600px) {
+    .flex{
+        > div{
+            > div {
+                span{
+                    font-size: 14px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
