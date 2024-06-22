@@ -1,0 +1,48 @@
+.main{
+    h3{
+        text-align: center;
+        font-size: 30px;
+        padding: 30px 0;
+        color: white;
+    }
+}
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    > .links{
+        display: flex;
+
+        gap: 2em;
+
+        a{
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+        }
+        .whats{
+            background-color: rgb(92, 255, 47);
+        }
+        .linkedin{
+            background-color: rgb(14, 118, 168);
+        }
+        .github{
+            background: rgb(54, 54, 54)
+        }
+        .email{
+            background-color: rgb(14, 163, 168);
+        }
+    }
+
+    .form{
+        width:20%;
+    }
+}
+
+@media (max-width:768px) {
+    .footer{
+        flex-direction: column;
+    }
+}
