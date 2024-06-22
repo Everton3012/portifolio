@@ -6,6 +6,7 @@ import { About } from "@/components/About";
 import Link from "next/link";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
+import { Services } from "@/components/services";
 
 export default function Home() {
     return (
@@ -42,6 +43,9 @@ export default function Home() {
                 </section>
                 <section className={styles.container}>
                     <Skills />
+                </section>
+                <section className={styles.container}>
+                    <Services />
                 </section>
             </main>
         </>

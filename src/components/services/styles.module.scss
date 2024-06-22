@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+.project {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card {
+    background-color: #ccc;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: #1a1919;
+        text-align: center;
+
+        transition: all 0.3s;
+        &:hover{
+            opacity: 0.8;
+        }
+        h3{
+            line-height: 30px;
+            font-size: 18px;
+            padding: 5px 0;
+        }
+
+
+
+    }
+
+}

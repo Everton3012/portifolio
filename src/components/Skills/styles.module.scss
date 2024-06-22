@@ -1,3 +1,4 @@
+
 .title {
     text-align: center;
     font-size: 40px;
@@ -15,7 +16,6 @@
     padding: 40px;
 }
 .flex {
-
     margin: 30px 0;
     padding: 30px 10px;
     display: flex;
@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: center;
     > div{
+        border-radius: 15px;
         text-align: center;
         width: 50%;
         height: 450px;

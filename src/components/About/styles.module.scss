@@ -4,6 +4,10 @@
     background: -webkit-linear-gradient(180deg, rgba(47,47,47,0.9859593495601365) 50%, rgba(38,38,38,1) 90%);
     background: linear-gradient(180deg, rgba(47,47,47,0.9859593495601365) 50%, rgba(38,38,38,1) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2f2f2f",endColorstr="#262626",GradientType=1);
+    -webkit-box-shadow: 10px 10px 44px 2px rgba(41,41,41,1);
+-moz-box-shadow: 10px 10px 44px 2px rgba(41,41,41,1);
+box-shadow: 10px 10px 44px 2px rgba(41,41,41,1);
+
     padding: 50px;
     border-radius: 20px;
     h2{

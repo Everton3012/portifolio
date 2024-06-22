@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 
 export const Skills = () => {
     return (
-        <main id="skills">
+        <main className={styles.main} id="skills">
             <section className={styles.flex}>
                 <div className={styles.hard}>
                     <h4>Hard Skills</h4>
@@ -16,7 +16,6 @@ export const Skills = () => {
                         <span>MySQL</span>
                         <span>PostgreSQL</span>
                         <span>TypeScript</span>
-
                         <span>MongoDB</span>
                     </div>
                 </div>
